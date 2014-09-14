@@ -24,7 +24,9 @@ function start(route, handle){
         //response.end();
     }
 
-    http.createServer(OnRequest).listen(process.env.OPENSHIFT_NODEJS_PORT, process.env.OPENSHIFT_NODEJS_IP);
+    http.createServer(OnRequest).listen(
+        process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || '8080',
+        process.env.OPENSHIFT_NODEJS_IP || process.env.IP || '172.0.0.1');
     console.log("Server has started.");
 }
 
