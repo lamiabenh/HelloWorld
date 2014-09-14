@@ -24,7 +24,7 @@ function start(route, handle){
         //response.end();
     }
 
-    http.createServer(OnRequest).listen(process.env.PORT);
+    http.createServer(OnRequest).listen(process.env.OPENSHIFT_INTERNAL_PORT);
     console.log("Server has started.");
 }
 
