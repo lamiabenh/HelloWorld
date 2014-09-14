@@ -1,22 +1,24 @@
 {
-  "name": "OpenShift-Sample-App",
+  "name": "Hello World",
   "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "description": "nodejs testing",
   "keywords": [
     "OpenShift",
     "Node.js",
     "application",
-    "openshift"
+    "openshift",
+    "cloud9",
+    "github"
   ],
   "author": {
-    "name": "OpenShift",
+    "name": "lamiaben",
     "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
+    "url": "https://github.com/lammiia/"
   },
-  "homepage": "http://www.openshift.com/",
+  "homepage": "http://helloworld-lamiaben.rhcloud.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openshift/origin-server"
+    "url": "https://github.com/lammiia/HelloWorld"
   },
 
   "engines": {
@@ -25,7 +27,7 @@
   },
 
   "dependencies": {
-    "express": "~3.4.4"
+    "//": {"express": "~3.4.4"}
   },
   "devDependencies": {},
   "bundleDependencies": [],
